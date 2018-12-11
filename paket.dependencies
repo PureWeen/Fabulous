@@ -8,8 +8,8 @@ group neutral
   source https://api.nuget.org/v3/index.json
   source https://www.myget.org/F/oxyplot
   nuget FSharp.Core 4.5.2
-  nuget Xamarin.Forms 3.1.0.697729
-  nuget Xamarin.Forms.Maps 3.1.0.697729
+  nuget Xamarin.Forms 4.0.0.8055-pre1
+  nuget Xamarin.Forms.Maps 4.0.0.8055-pre1
   nuget SkiaSharp
   nuget SkiaSharp.Views.Forms
   nuget OxyPlot.Core 2.0.0-unstable0956 # version matching last updated version of OxyPlot.Xamarin.Forms
@@ -22,28 +22,28 @@ group androidapp
   framework: monoandroid71
   source https://api.nuget.org/v3/index.json
   nuget FSharp.Core 4.5.2
-  nuget Xamarin.Forms 3.1.0.697729
+  nuget Xamarin.Forms 4.0.0.8055-pre1
   nuget Xamarin.Android.FSharp.ResourceProvider 1.0.0.25
   nuget Xamarin.Android.Arch.Core.Common 1.0.0.1
   nuget Xamarin.Android.Arch.Core.Runtime 1.0.0.1
   nuget Xamarin.Android.Arch.Lifecycle.Common 1.0.3.1
   nuget Xamarin.Android.Arch.Lifecycle.Runtime 1.0.3.1
-  nuget Xamarin.Android.Support.Animated.Vector.Drawable 27.0.2.1
-  nuget Xamarin.Android.Support.Annotations 27.0.2.1
-  nuget Xamarin.Android.Support.Compat 27.0.2.1
-  nuget Xamarin.Android.Support.Core.UI 27.0.2.1
-  nuget Xamarin.Android.Support.Core.Utils 27.0.2.1
-  nuget Xamarin.Android.Support.Design 27.0.2.1
-  nuget Xamarin.Android.Support.Fragment 27.0.2.1
-  nuget Xamarin.Android.Support.Media.Compat 27.0.2.1
-  nuget Xamarin.Android.Support.Transition 27.0.2.1
-  nuget Xamarin.Android.Support.v4 27.0.2.1
-  nuget Xamarin.Android.Support.v7.AppCompat 27.0.2.1
-  nuget Xamarin.Android.Support.v7.CardView 27.0.2.1
-  nuget Xamarin.Android.Support.v7.MediaRouter 27.0.2.1
-  nuget Xamarin.Android.Support.v7.Palette 27.0.2.1
-  nuget Xamarin.Android.Support.v7.RecyclerView 27.0.2.1
-  nuget Xamarin.Android.Support.Vector.Drawable 27.0.2.1
+  nuget Xamarin.Android.Support.Animated.Vector.Drawable 28.0.0-preview8
+  nuget Xamarin.Android.Support.Annotations 28.0.0-preview8
+  nuget Xamarin.Android.Support.Compat 28.0.0-preview8
+  nuget Xamarin.Android.Support.Core.UI 28.0.0-preview8
+  nuget Xamarin.Android.Support.Core.Utils 28.0.0-preview8
+  nuget Xamarin.Android.Support.Design 28.0.0-preview8
+  nuget Xamarin.Android.Support.Fragment 28.0.0-preview8
+  nuget Xamarin.Android.Support.Media.Compat 28.0.0-preview8
+  nuget Xamarin.Android.Support.Transition 28.0.0-preview8
+  nuget Xamarin.Android.Support.v4 28.0.0-preview8
+  nuget Xamarin.Android.Support.v7.AppCompat 28.0.0-preview8
+  nuget Xamarin.Android.Support.v7.CardView 28.0.0-preview8
+  nuget Xamarin.Android.Support.v7.MediaRouter 28.0.0-preview8
+  nuget Xamarin.Android.Support.v7.Palette 28.0.0-preview8
+  nuget Xamarin.Android.Support.v7.RecyclerView 28.0.0-preview8
+  nuget Xamarin.Android.Support.Vector.Drawable 28.0.0-preview8
   nuget Newtonsoft.Json 11.0.2
 
 # Dependencies used when compiling and running iOS samples. We can normally use the latest FSharp.Core and 
@@ -52,20 +52,20 @@ group iosapp
   framework: monotouch
   source https://api.nuget.org/v3/index.json
   nuget FSharp.Core 4.5.2
-  nuget Xamarin.Forms 3.1.0.697729
+  nuget Xamarin.Forms 4.0.0.8055-pre1
   nuget Newtonsoft.Json 11.0.2
 
 group macos
   framework: xamarinmac20
   source https://api.nuget.org/v3/index.json
   nuget FSharp.Core 4.5.2
-  nuget Xamarin.Forms 3.1.0.697729
+  nuget Xamarin.Forms 4.0.0.8055-pre1
   nuget Newtonsoft.Json 11.0.2
 
 group wpfapp
   framework: net461
   source https://api.nuget.org/v3/index.json
   nuget FSharp.Core 4.5.2
-  nuget Xamarin.Forms 3.1.0.697729 
+  nuget Xamarin.Forms 4.0.0.8055-pre1 
   nuget Newtonsoft.Json 11.0.2
   nuget Xamarin.Forms.Platform.WPF
